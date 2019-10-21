@@ -156,7 +156,7 @@ for($i=1;$i<366;$i++){
 }
 }
 echo count($r).'HW'."<br>";
-echo count($j).'LMS';
+echo (count($j)*2).'LMS';
 
 
 
