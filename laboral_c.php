@@ -82,24 +82,59 @@ $Festividad=[
 ];
 
 for($i=1;$i<366;$i++){
-	$a=date('Y-m-d',($i-1)*24*60*60+strtotime('2019-01-01'));
+	$a=date('Y-m-d',($i-1)*24*60*60+strtotime('2019-09-13'));
 		if(
 		!in_array($a,$Festividad)
+		and
+		date('D',strtotime($a))!='Thu'
+		and
+		date('D',strtotime($a))!='Fri'
 		and
 		date('D',strtotime($a))!='Sat'
 		and
 		date('D',strtotime($a))!='Sun'
 	)
-	{
+{
 	$r[]=[
 	'n'=>$i,
 	's'=>round($i/7)+1,
-	'fecha'=>date('Y-m-d',strtotime('2019-01-01')+($i-1)*24*60*60),
-	'D'=>date('D',strtotime('2019-01-01')+($i-1)*24*60*60),
+	'fecha'=>date('Y-m-d',strtotime('2019-09-13')+($i-1)*24*60*60),
+	'D'=>date('D',strtotime('2019-09-13')+($i-1)*24*60*60),
 	];
 
 }
 }
+for($i=1;$i<366;$i++){
+	$a=date('Y-m-d',($i-1)*24*60*60+strtotime('2019-09-13'));
+		if(
+		!in_array($a,$Festividad)
+		and
+		date('D',strtotime($a))!='Tue'
+		and
+		date('D',strtotime($a))!='Thu'
+		and
+		date('D',strtotime($a))!='Fri'
+		and
+		date('D',strtotime($a))!='Sat'
+		and
+		date('D',strtotime($a))!='Sun'
+	)
+
+	{
+	$j[]=[
+	'n'=>$i,
+	's'=>round($i/7)+1,
+	'fecha'=>date('Y-m-d',strtotime('2019-09-13')+($i-1)*24*60*60),
+	'D'=>date('D',strtotime('2019-09-13')+($i-1)*24*60*60),
+	];
+
+}
+}
+echo count($r).'HW'."<br>";
+echo count($j).'LMS';
+
+
+
 foreach($r as $f){
 	echo '<tr>'."<br>";
 	
