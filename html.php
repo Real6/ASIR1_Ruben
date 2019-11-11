@@ -19,7 +19,7 @@
  
  <h3>  <center> UWU </center>  </h3>
 
- <img src="https://i.ytimg.com/vi/MooO02VdfVU/maxresdefault.jpg" width="600">
+ <img src="https://i.ytimg.com/vi/MooO02VdfVU/maxresdefault.jpg" width="600"> </img>
 
 
 </body>
