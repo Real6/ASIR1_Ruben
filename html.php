@@ -8,24 +8,24 @@
 </head>
 <body>
 <h1> <center> Vocales </center> </h1>
-<font color="blue"> <u> <center> Esta es una pagina con todas las vocales con algunos ejemplos </center> </u> </font>
+<h3> <font color="blue"> <u> <b> <center> Esta es una pagina con todas las vocales con algunos ejemplos </center> </u> </b> </font> </h3>
 
-<h2> <center> AWA </center> </h2> 
-<font size=20> <b> <center> Agua, Avión, Arquitecto. </center> </b> </font>
-<h3> <center> EWE </center> </h3> </br>
- <font size=20> <b> <center> Erizo, Esquema, Eucalipto. </center> </b> </font>
+<h2> <center> La A </center> </h2> 
+<h3> <font size=5>  <center> Agua, Avión, Arquitecto. </center>  </font> </h3>
+<h2> <center> La E </center> </h2> </br>
+<h3> <font size=5> <center> Erizo, Esquema, Eucalipto. </center> </font> </h3>
  
- <h4> <center> IWI </center> </h4> </br>
- <font size=20> <b> <center> Iris, Idea, Ingeniero </center> </b> </font>
+ <h2> <center> La I </center> </h2> </br>
+<h3> <font size=5> <center> Iris, Idea, Ingeniero </center> </font> </h3>
  
- <h5> <center> OWO </center> </h5>
- <font size=20> <b> <center> Obsoleto, Oriental, Objeto </center> </b> </font>
+ <h2> <center> La O </center> </h2>
+<h3> <font size=5> <center> Obsoleto, Oriental, Objeto </center> </font> </h3>
  
- <h6> <center> UWU </center> </h6>
- <font size=20> <b> <center> Uno, Unicornio, Universidad. </center> </b> </font> </br>
+ <h2> <center> La U </center> </h2>
+<h3> <font size=5> <center> Uno, Unicornio, Universidad. </center> </font> </br> </h3>
  
  
- <img src="https://i.ytimg.com/vi/MooO02VdfVU/maxresdefault.jpg" width="600"> </img>
+ <img src="https://i.ytimg.com/vi/MooO02VdfVU/maxresdefault.jpg" width="600" />
 
 
 </body>
