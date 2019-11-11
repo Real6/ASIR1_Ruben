@@ -7,18 +7,24 @@
 
 </head>
 <body>
-<h1> Vocales </h1>
+<h1> <center> Vocales </center> </h1>
+<font color="blue"> <u> <center> Esta es una pagina con todas las vocales con algunos ejemplos </center> </u> </font>
 
-<h2> AWA </h2> 
-
- <b> <font size=20> EWE </font> </b> </br>
+<h2> <center> AWA </center> </h2> 
+<font size=20> <b> <center> Agua, Avión, Arquitecto. </center> </b> </font>
+<h3> <center> EWE </center> </h3> </br>
+ <font size=20> <b> <center> Erizo, Esquema, Eucalipto. </center> </b> </font>
  
- </br> <u> <font color="blue"> IWI </font> </u> 
+ <h4> <center> IWI </center> </h4> </br>
+ <font size=20> <b> <center> Iris, Idea, Ingeniero </center> </b> </font>
  
- <h3> OWO </h3>
+ <h5> <center> OWO </center> </h5>
+ <font size=20> <b> <center> Obsoleto, Oriental, Objeto </center> </b> </font>
  
- <h3>  <center> UWU </center>  </h3>
-
+ <h6> <center> UWU </center> </h6>
+ <font size=20> <b> <center> Uno, Unicornio, Universidad. </center> </b> </font> </br>
+ 
+ 
  <img src="https://i.ytimg.com/vi/MooO02VdfVU/maxresdefault.jpg" width="600"> </img>
 
 
