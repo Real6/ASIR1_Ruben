@@ -10,7 +10,7 @@ function tipo($x, $y, $z) {
 	return $r;
 }
 echo tipo(3,3,3)."<br>";
-echo tipo(1,2,2)."<br>";
+echo tipo(1,1,3)." = Isosceles.<br>";
 echo tipo(3,4,5)."<br>";
 
 ?>
